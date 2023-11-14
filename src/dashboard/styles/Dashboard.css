@@ -1,0 +1,43 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar{
+    height: 100vh;
+    width: 345px;
+    background-color: whitesmoke;
+}
+.content{
+    height: 100%;
+    width: 77%;
+    background-color: whitesmoke;
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.content_navbar{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_navbar_title{
+    height: 100%;
+    width: 20rem;
+    background-color: ivory;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_navbar_title h1{
+    color: var(--greys-blue-grey-900, #151D48);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
