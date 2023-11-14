@@ -29,7 +29,6 @@
 .content_navbar_title{
     height: 100%;
     width: 20rem;
-    background-color: ivory;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,4 +39,12 @@
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
+}
+.content_navbar_others{
+    height: 100%;
+    width: 55rem;
+    background-color: ivory;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
