@@ -8,12 +8,12 @@
 .sidebar{
     height: 100vh;
     width: 345px;
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
 }
 .content{
     height: 100%;
     width: 77%;
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
     display: flex;
         align-items: center;
         justify-content: space-between;
@@ -47,4 +47,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.content_navbar_others input::placeholder{
+    color: var(--greys-blue-grey-700, #737791);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
